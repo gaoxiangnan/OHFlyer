@@ -22,7 +22,7 @@
 {
     self = [super initWithFrame:frame];;
     if (self) {
-        self.backgroundColor = [UIColor lightGrayColor];
+        self.backgroundColor = RGBACOLOR(246, 246, 246, 1);
         self.landNum = [NSArray arrayWithObjects:@"0",@"1", nil];
         [self InitWithSubViews];
     }
@@ -72,8 +72,8 @@
 - (UIView *)airHeaderView
 {
     if (!_airHeaderView) {
-        _airHeaderView = [[UIView alloc] initWithFrame:CGRectMake(0, 0, kDeviceWidth, 42+_landNum.count*25)];
-        _airHeaderView.backgroundColor = [UIColor redColor];
+        _airHeaderView = [[UIView alloc] initWithFrame:CGRectMake(0, 0, kDeviceWidth, 42+_landNum.count*45)];
+        _airHeaderView.backgroundColor = RGBACOLOR(246, 246, 246, 1);
         UILabel *showMaxPerson = [UILabel new];
         showMaxPerson.text = @"最大乘客人数  ";
         showMaxPerson.textColor = RGBACOLOR(0, 0, 0, 0.7);
@@ -94,31 +94,52 @@
             UILabel *startPla = [UILabel new];
             startPla.text = @"新加坡";
             startPla.textColor = [UIColor blackColor];
-            startPla.font = [UIFont systemFontOfSize:12 weight:UIFontWeightThin];
+            startPla.font = [UIFont systemFontOfSize:14 weight:UIFontWeightLight];
             [_airHeaderView addSubview:startPla];
             [startPla mas_makeConstraints:^(MASConstraintMaker *make) {
                 make.left.equalTo(showMaxPerson);
-                make.top.equalTo(showMaxPerson.mas_bottom).offset(10 + i*20);
+                make.top.equalTo(showMaxPerson.mas_bottom).offset(10 + i*45);
+            }];
+            
+            UILabel *startAir = [UILabel new];
+            startAir.text = @"新加坡机场";
+            startAir.textColor = RGBACOLOR(0, 0, 0, 0.5);
+            startAir.font = [UIFont systemFontOfSize:12 weight:UIFontWeightLight];
+            [_airHeaderView addSubview:startAir];
+            [startAir mas_makeConstraints:^(MASConstraintMaker *make) {
+                make.left.equalTo(startPla);
+                make.top.equalTo(startPla.mas_bottom).offset(3);
             }];
             
             UIImageView *showGoImg = [UIImageView new];
             showGoImg.image = [UIImage imageNamed:@"start_detail"];
             [_airHeaderView addSubview:showGoImg];
             [showGoImg mas_makeConstraints:^(MASConstraintMaker *make) {
-                make.left.equalTo(startPla.mas_right).offset(10);
-                make.bottom.equalTo(startPla.mas_bottom);
+                make.left.equalTo(startPla.mas_right).offset(40);
+                make.bottom.equalTo(startPla.mas_bottom).offset(5);
             }];
             
             UILabel *arrivePlaLb = [UILabel new];
             arrivePlaLb.text = @"北京";
             arrivePlaLb.textColor = [UIColor blackColor];
-            arrivePlaLb.font = [UIFont systemFontOfSize:12 weight:UIFontWeightThin];
+            arrivePlaLb.font = [UIFont systemFontOfSize:14 weight:UIFontWeightLight];
             arrivePlaLb.textAlignment = NSTextAlignmentLeft;
             [_airHeaderView addSubview:arrivePlaLb];
             [arrivePlaLb mas_makeConstraints:^(MASConstraintMaker *make) {
-                make.left.equalTo(showGoImg.mas_right).offset(10);
+                make.left.equalTo(showGoImg.mas_right).offset(40);
                 make.top.equalTo(startPla);
             }];
+            
+            UILabel *arriveAir = [UILabel new];
+            arriveAir.text = @"北京首都机场";
+            arriveAir.textColor = RGBACOLOR(0, 0, 0, 0.5);
+            arriveAir.font = [UIFont systemFontOfSize:12 weight:UIFontWeightLight];
+            [_airHeaderView addSubview:arriveAir];
+            [arriveAir mas_makeConstraints:^(MASConstraintMaker *make) {
+                make.left.equalTo(arrivePlaLb);
+                make.top.equalTo(arrivePlaLb.mas_bottom).offset(3);
+            }];
+            
             
             UILabel *timeLb = [UILabel new];
             timeLb.text = @"2016/11/12 13:30";

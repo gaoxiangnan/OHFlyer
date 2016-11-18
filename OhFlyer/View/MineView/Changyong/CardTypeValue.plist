@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<array>
+        <array>
+            <string>请填写中文姓名</string>
+            <string>请填写英文姓</string>
+            <string>请填写英文名</string>
+            <string>请填写手机号码</string>
+        </array>
+		<array>
+            <string>其它</string>
+            <string>请填写证件号码</string>
+            <string>请选择证件有效期</string>
+            <string>请选择国籍</string>
+            <string>请选择性别</string>
+            <string>请选择出生日期</string>
+        </array>
+	</array>
+    
+    
+	<array>
+        <array>
+            <string>请填写姓名</string>
+            <string>请填写英文姓</string>
+            <string>请填写英文名</string>
+            <string>请填写手机号码</string>
+        </array>
+        <array>
+            <string>身份证</string>
+            <string>请填写证件号码</string>
+        </array>
+	</array>
+    
+    
+	<array>
+        <array>
+            <string>请填写姓名</string>
+            <string>请填写英文姓</string>
+            <string>请填写英文名</string>
+            <string>请填写手机号码</string>
+        </array>
+        <array>
+            <string>护照</string>
+            <string>请填写证件号码</string>
+            <string>请选择证件有效期</string>
+            <string>请选择国籍</string>
+            <string>请选择性别</string>
+            <string>请选择出生日期</string>
+        </array>
+	</array>
+    
+    
+    
+	<array>
+        <array>
+            <string>请填写姓名</string>
+            <string>请填写英文姓</string>
+            <string>请填写英文名</string>
+            <string>请填写手机号码</string>
+        </array>
+        <array>
+            <string>台胞证</string>
+            <string>请填写证件号码</string>
+            <string>请选择证件有效期</string>
+            <string>请选择国籍</string>
+            <string>请选择性别</string>
+            <string>请选择出生日期</string>
+        </array>
+	</array>
+    
+    
+	<array>
+        <array>
+            <string>请填写姓名</string>
+            <string>请填写英文姓</string>
+            <string>请填写英文名</string>
+            <string>请填写手机号码</string>
+        </array>
+        <array>
+            <string>回乡证</string>
+            <string>请填写证件号码</string>
+            <string>请选择证件有效期</string>
+            <string>请选择国籍</string>
+            <string>请选择性别</string>
+            <string>请选择出生日期</string>
+        </array>
+	</array>
+    
+    
+	<array>
+        <array>
+            <string>请填写姓名</string>
+            <string>请填写英文姓</string>
+            <string>请填写英文名</string>
+            <string>请填写手机号码</string>
+        </array>
+        <array>
+            <string>军人证</string>
+            <string>请填写证件号码</string>
+            <string>请选择证件有效期</string>
+            <string>请选择国籍</string>
+            <string>请选择性别</string>
+            <string>请选择出生日期</string>
+        </array>
+	</array>
+    
+    
+	<array>
+        <array>
+            <string>请填写姓名</string>
+            <string>请填写英文姓</string>
+            <string>请填写英文名</string>
+            <string>请填写手机号码</string>
+        </array>
+        <array>
+            <string>港澳通行证</string>
+            <string>请填写证件号码</string>
+            <string>请选择证件有效期</string>
+            <string>请选择国籍</string>
+            <string>请选择性别</string>
+            <string>请选择出生日期</string>
+        </array>
+	</array>
+	<array>
+        <array>
+            <string>请填写姓名</string>
+            <string>请填写英文姓</string>
+            <string>请填写英文名</string>
+            <string>请填写手机号码</string>
+        </array>
+        <array>
+            <string>户口本</string>
+            <string>请填写证件号码</string>
+            <string>请选择证件有效期</string>
+            <string>请选择国籍</string>
+            <string>请选择性别</string>
+            <string>请选择出生日期</string>
+        </array>
+	</array>
+	<array>
+        <array>
+            <string>请填写姓名</string>
+            <string>请填写英文姓</string>
+            <string>请填写英文名</string>
+            <string>请填写手机号码</string>
+        </array>
+        <array>
+            <string>出生证</string>
+            <string>请填写证件号码</string>
+            <string>请选择出生日期</string>
+        </array>
+	</array>
+</array>
+</plist>
