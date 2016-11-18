@@ -1,0 +1,14 @@
+//
+//  CuSZcalendarCell.h
+//  OhFlyer
+//
+//  Created by 向楠 on 16/11/2.
+//  Copyright © 2016年 向楠. All rights reserved.
+//
+
+#import <UIKit/UIKit.h>
+
+@interface CuSZcalendarCell : UICollectionViewCell
+@property (nonatomic , strong) UILabel *dateLabel;
+@property (nonatomic, strong) UIImageView *dateImg;
+@end

@@ -1,0 +1,54 @@
+//
+//  OhflyerPrefixHeader.pch
+//  OhFlyer
+//
+//  Created by 向楠 on 16/8/4.
+//  Copyright © 2016年 向楠. All rights reserved.
+//
+
+#ifndef OhflyerPrefixHeader_pch
+#define OhflyerPrefixHeader_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+#define  loadFailImg [UIImage imageNamed:@"loading_fail_img"]
+
+#define Screen_Bounds [UIScreen mainScreen].bounds
+#define Screen_Height [UIScreen mainScreen].bounds.size.height
+#define Screen_Width [UIScreen mainScreen].bounds.size.width
+
+#define BottomH 44.0
+#define TopTabBarH 44.0
+#define NaviBarH 64.0
+#define Color(r,g,b,al) [UIColor colorWithRed:r/255.0 green:g/255.0 blue:b/255.0 alpha:al]
+
+
+#import "MJRefresh.h"
+//#import "Masonry.h"
+#import <Masonry/Masonry.h>
+#import "Config.h"
+#import "UIColor+Hex.h"
+#import "StringConstants.h"
+#import <ReactiveCocoa/ReactiveCocoa.h>
+#import "OpenUDID.h"
+#import "UIImage+compressIMG.h"
+#import "NYXImagesKit.h"
+#import <AFNetworking/AFNetworking.h>
+#import "IQKeyboardManager.h"
+#import "BaseViewController.h"
+
+#import <UMSocial.h>
+#import <UMSocialSinaSSOHandler.h>
+#import <UMSocialWechatHandler.h>
+#import <UMSocialSinaHandler.h>
+
+#import "UIView+MJExtension.h"
+#import "UIImageView+WebCache.h"
+
+#import "ApiConstants.h"
+#import "MBProgressHUD.h"
+
+
+
+#endif /* OhflyerPrefixHeader_pch */

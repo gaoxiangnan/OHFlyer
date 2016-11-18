@@ -1,0 +1,6 @@
+framework module Pods_OhFlyer {
+  umbrella header "Pods-OhFlyer-umbrella.h"
+
+  export *
+  module * { export * }
+}
